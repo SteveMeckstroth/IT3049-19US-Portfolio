@@ -13,45 +13,7 @@ body { font-family:Verdana, Arial, sans-serif;
 header {height: 500px;  background-size: 100% 500px; background-color: #c9e9f6; background-image: url(computer-electronics-internet-163097.jpg); background-repeat: no-repeat; background-position: right;}
 footer {padding: 1em; background-color: #c9e9f6; font-size: small; font-style: italic; text-align: center}
 .selfie {height: 720px; width: 960px; background-image: url(selfie.jpg); background-repeat: no-repeat;}
-
-
-nav {   background-color: #87ceeb;
-	   letter-spacing: 0.1em;
-	   font-weight: bold;
-	   text-align: left;
-	   padding-right: 2em;
-	   position: relative;
-}
-nav ul { list-style-type: none;
-        margin: 0;
-}
-nav li { padding: 0.5em;
-      display: inline-block;
-}
-nav a { text-decoration: none;
-       display: block;
-	   color: #FFFFFF
-}
-nav a:link { color: #FFFFFF; }
-nav a:visited { color: #EAEAEA; }
-nav a:hover {  color: #D3DBEB; }
-nav ul ul { position: absolute;
-         background-color: #45b3e0;
-    	 padding: 0;
-		 padding-top: 7px;
-         display: none;
-		 text-align: left;
-}
-nav ul ul li { border: 1px solid  #00005D;
- 		 display: block;
-         width: 8em;
-         padding-left: 1em;
-         margin-left: 0;
-		 padding-top: 5px;
-}
-nav li:hover ul { display: block; }
-
-
+.topic
 
 h1 {
   width:100%;
@@ -66,13 +28,11 @@ mark {
     background-color: #45b3e0;
 	color: #FFFFFF
 }
-li {font-size: 90%}
+
 main{padding: 0 3em 3em 3em; display: block; margin-left: 170px;}
 main h2 {font-size: 3em;}
 main ul li {font-size: 2em;}
 main h3 {font-size: 2.5em}
-.sitelist {list-style-type: none}
-.sitelist li {padding: 1em}
 .floatleft {float:left; margin-right: 4em}
 .clear {padding-top: 10px; clear:both;}
 	p {font-size: 2em;}
