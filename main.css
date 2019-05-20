@@ -12,6 +12,8 @@ body { font-family:Verdana, Arial, sans-serif;
 }
 header {height: 500px;  background-size: 100% 500px; background-color: #c9e9f6; background-image: url(computer-electronics-internet-163097.jpg); background-repeat: no-repeat; background-position: right;}
 footer {padding: 1em; background-color: #c9e9f6; font-size: small; font-style: italic; text-align: center}
+.selfie {height: 720px; width: 960px; background-image: url(selfie.jpg); background-repeat: no-repeat;}
+
 
 nav {   background-color: #87ceeb;
 	   letter-spacing: 0.1em;
