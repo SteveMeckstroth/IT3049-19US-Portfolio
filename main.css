@@ -1,0 +1,118 @@
+* { box-sizing: border-box; }
+body { font-family:Verdana, Arial, sans-serif;
+       background-color: #FFFFFF;
+	   margin: 0;
+}
+#wrapper {  min-width: 600px;
+           max-width: 1280px;
+           color: #000066;
+		   background-color: #45b3e0;
+           width: 80%;
+		   margin: auto;
+}
+header {height: 500px;  background-size: 100% 500px; background-color: #c9e9f6; background-image: url(computer-electronics-internet-163097.jpg); background-repeat: no-repeat; background-position: right;}
+footer {padding: 1em; background-color: #c9e9f6; font-size: small; font-style: italic; text-align: center}
+
+nav {   background-color: #87ceeb;
+	   letter-spacing: 0.1em;
+	   font-weight: bold;
+	   text-align: left;
+	   padding-right: 2em;
+	   position: relative;
+}
+nav ul { list-style-type: none;
+        margin: 0;
+}
+nav li { padding: 0.5em;
+      display: inline-block;
+}
+nav a { text-decoration: none;
+       display: block;
+	   color: #FFFFFF
+}
+nav a:link { color: #FFFFFF; }
+nav a:visited { color: #EAEAEA; }
+nav a:hover {  color: #D3DBEB; }
+nav ul ul { position: absolute;
+         background-color: #45b3e0;
+    	 padding: 0;
+		 padding-top: 7px;
+         display: none;
+		 text-align: left;
+}
+nav ul ul li { border: 1px solid  #00005D;
+ 		 display: block;
+         width: 8em;
+         padding-left: 1em;
+         margin-left: 0;
+		 padding-top: 5px;
+}
+nav li:hover ul { display: block; }
+
+
+
+h1 {
+  width:100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-left: 2em;
+  font-size: 500%}
+mark {
+    background-color: #45b3e0;
+	color: #FFFFFF
+}
+li {font-size: 90%}
+main{padding: 0 3em 3em 3em; display: block; margin-left: 170px;}
+main h2 {font-size: 3em;}
+main ul li {font-size: 2em;}
+main h3 {font-size: 2.5em}
+.sitelist {list-style-type: none}
+.sitelist li {padding: 1em}
+.floatleft {float:left; margin-right: 4em}
+.clear {padding-top: 10px; clear:both;}
+	p {font-size: 2em;}
+table {background-color: #f3fafd; margin-left: auto; margin-right: auto; width: 75%; border: 2px solid #000000; margin-bottom: 2em; border-collapse: collapse;}
+td, th {padding: 0.5em; border: 1px solid #000000}
+tr:nth-of-type(even) {background-color: #c9e9f6}
+#imgdiv {height: 400px; width: 300px; float: right; transform: rotate(10deg);}
+#imgdiv img {height: 400px; width: 300px;}
+header, main, nav, footer { display: block; }
+.mobile {display: none}
+.desktop {display: inline}
+video {width: 50%}
+span {font-size: 0.7em; clear: left;}
+.filter span {font-size: 0.7em; clear: left;}
+
+@media only screen and (max-width: 64em) {
+	body {margin: 0px; padding: 0px}
+	.wrapper {min-width: 0px; width: auto; margin: 0px; padding: 0px}
+	header {padding-top: 1px}
+	main {padding-top: 0px; padding-bottom: 2.5em; padding-left: 1em; padding-right: 1em; margin: 0px; font-size: 90%; float: none}
+	nav {float: none; width: auto; padding-left: 2em}
+	nav a {padding: 0.2em; margin-left: 0.3em; float: left; width: 23%}
+	h2,h3,p,dl {padding-left: 2em; padding-right: 2em}
+	main ul {margin-left: 2em;}
+	.clear {padding-left: 2em}
+
+}
+@media only screen and (max-width: 37.5em) {
+	h1 {font-size: 2em; padding-top: 0.25em; padding-left: 1.5em; width: 85%; text-align: center}
+	h2 {font-size: 1em; padding-top: 0.25em; padding-left: 1.5em; width: 85%; text-align: center}
+	nav a {padding: 0.5em; width: 45%; float: left; min-width: 6em; margin-left: 0.5em}
+	li {font-size: 100%}
+	footer {padding: 0.5em; margin: 0px}
+	.mobile {display: inline}
+	.desktop {display: none;}
+	label {float: none; text-align: left;}
+	input[type="submit"] {margin-left: 0;}
+	main {padding-top: 0px; padding-bottom: 2.5em; padding-left: 1em; padding-right: 1em; margin: 0px; font-size: 90%; float: none}
+	#imgdiv {height: 200px; width: 150px; float: right; transform: rotate(10deg);}
+	#imgdiv img {height: 200px; width: 150px;}
+}
+label {float:left; display: block; text-align: right; width: 10em; padding-right: 1em}
+input, textarea {display: block; margin-bottom: 2em}
+input[type="submit"] {margin-left: 12em}
+form {padding: 3em}
